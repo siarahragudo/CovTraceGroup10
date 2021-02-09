@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/etmunicipal"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:text="Municipalities"
+        android:textColor="#000000"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/etPangasinan"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:text="Pangasinan"
+        android:textSize="20dp"
+        android:textColor="#000000">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnAgno"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Agno"
+        android:background="#61AD74">
+    </Button>
+
+    <Button
+        android:id="@+id/btnAguilar"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Aguilar">
+    </Button>
+
+    <Button
+        android:id="@+id/btnAlcala"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Alcala">
+    </Button>
+
+    <Button
+        android:id="@+id/btnAnda"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Anda">
+    </Button>
+
+    <Button
+        android:id="@+id/btnAsingan"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Asingan">
+    </Button>
+
+    <Button
+    android:id="@+id/btnBalungao"
+    android:layout_marginLeft="30dp"
+    android:layout_width="300dp"
+    android:layout_height="30dp"
+    android:background="#61AD74"
+    android:layout_marginTop="5dp"
+    android:text="Balungao">
+</Button>
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_marginLeft="80dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#ff0000"
+        android:layout_marginTop="5dp"
+        android:text="update">
+    </Button>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/btnBalungao"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:background="#00ff00"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/btnBalungao"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:background="#00ff00"
+        android:text="Next" />
+
+
+</LinearLayout>

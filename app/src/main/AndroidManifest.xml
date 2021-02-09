@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covtracegroup10">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DBHelper"></activity>
+        <activity android:name=".update1" />
+        <activity android:name=".sanfabian5" />
+        <activity android:name=".rosales5" />
+        <activity android:name=".pozorrubio5" />
+        <activity android:name=".natividad5" />
+        <activity android:name=".mapandan5" />
+        <activity android:name=".mangatarem5" />
+        <activity android:name=".mangaldan4" />
+        <activity android:name=".manaoag4" />
+        <activity android:name=".malasiqui4" />
+        <activity android:name=".mabini4" />
+        <activity android:name=".lingayen4" />
+        <activity android:name=".laoac4" />
+        <activity android:name=".muni5" />
+        <activity android:name=".muni4" />
+        <activity android:name=".muni3" />
+        <activity android:name=".labrador3" />
+        <activity android:name=".calasiao3" />
+        <activity android:name=".dasol3" />
+        <activity android:name=".bugallon3" />
+        <activity android:name=".burgos3" />
+        <activity android:name=".binmaley3" />
+        <activity android:name=".bolinao2" />
+        <activity android:name=".binalonan2" />
+        <activity android:name=".bayambang2" />
+        <activity android:name=".bautista2" />
+        <activity android:name=".basista2" />
+        <activity android:name=".bani2" />
+        <activity android:name=".muni2" />
+        <activity android:name=".balungao1" />
+        <activity android:name=".asingan1" />
+        <activity android:name=".anda1" />
+        <activity android:name=".alcala1" />
+        <activity android:name=".aguilar1" />
+        <activity android:name=".agno1" />
+        <activity android:name=".muni1" />
+        <activity android:name=".register2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/etmunicipal"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:text="Municipalities"
+        android:textColor="#000000"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/etPangasinan"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:text="Pangasinan"
+        android:textSize="20dp"
+        android:textColor="#000000">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnBani"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Bani"
+        android:background="#61AD74">
+    </Button>
+
+    <Button
+        android:id="@+id/btnBasista"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Basista">
+    </Button>
+
+    <Button
+        android:id="@+id/btnBautista"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Bautista">
+    </Button>
+
+    <Button
+        android:id="@+id/btnBayambang"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Bayambang">
+    </Button>
+
+    <Button
+        android:id="@+id/btnBinalonan"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Binalonan">
+    </Button>
+    <Button
+        android:id="@+id/btnBolinao"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#61AD74"
+        android:layout_marginTop="5dp"
+        android:text="Bolinao">
+    </Button>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:background="#00ff00"
+        android:text="Back"
+        android:layout_below="@id/btnBolinao"
+        />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/btnBolinao"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:background="#00ff00"
+        android:text="Next" />
+
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cov"
+    tools:context=".update1">
+
+    <ImageView
+        android:background="@drawable/logo"
+        android:id="@+id/pic"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="90dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/etmunicipal"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pic"
+        android:text="Municipalities"
+        android:textColor="#000000"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/etPangasinan"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/etmunicipal"
+        android:text="Pangasinan"
+        android:textSize="15dp"
+        android:textColor="#000000">
+    </TextView>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:text="Update"
+        android:layout_marginLeft="90dp"
+        android:background="#61AD74"
+        android:layout_below="@+id/etPangasinan"/>
+
+
+    <EditText
+        android:id="@+id/active"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update"
+        android:hint="Enter Active Case"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/death"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/active"
+        android:hint="Enter death"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/recover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/death"
+        android:hint="Enter Recoveries"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/btninsert"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:background="#61AD74"
+        android:text="insert"
+        android:layout_below="@id/recover"
+        />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="100dp"
+        android:background="#61AD74"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:text="DELETE RECORD"
+        android:layout_below="@id/recover"
+        />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/recover"
+        android:background="#61AD74"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:text="UPDATE" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="100dp"
+        android:background="#61AD74"
+        android:layout_height="40dp"
+        android:layout_below="@id/btndelete"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="VIEW" />
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#61AD74"
+        android:text="Back"
+        android:layout_below="@+id/btnview"
+        android:layout_marginTop="50dp"/>
+
+
+
+</RelativeLayout>
